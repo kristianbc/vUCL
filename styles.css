@@ -2,19 +2,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
+    background: linear-gradient(135deg, #007bff, #b8d3fe);
+    overflow: hidden; /* Prevent scrolling */
+    height: 100vh; /* Set the height to the viewport height */
   }
   
   .container {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 400px;
+    margin: 50px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .discord-logo {
+    position: absolute;
+    bottom: 416px;
+    right: 50px;
+  }
+  
+  .discord-logo img {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    bottom: 0px; /* Adjust this value to change the vertical position */
+    left: 10px;   /* Adjust this value to change the horizontal position */
+  
+  }
+  
+  .header {
+    background-color: #0056b3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+    opacity: 0.8;
+  }
+  
+  .content {
+    padding: 20px;
   }
   
   h1 {
