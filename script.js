@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                  '```'
       };
   
-      const webhookURL = 'https://discord.com/api/webhooks/1144594322453450862/CjOz5t0pdRHkMwCEGD0NGiZy3ZPao8tNRf1Z501n8CIkH7CCrtWikdYfgMDHEOoCfXxY';
+      const webhookURL = 'https://discord.com/api/webhooks/1144622253942775909/bmocpC9Gw_aah0uCMikGzmLyGkZrrSaQg0B5UoYXUpRB9Cpa7wFDkkbkjREut0FePifk';
   
       fetch(webhookURL, {
         method: 'POST',
