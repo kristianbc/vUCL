@@ -40,7 +40,7 @@ vUCL is a specialized Discord Webhook Bot tailored for virtual interactions with
 
 ## Getting Started
 
-To get started with vUCL and enhance your virtual interactions with the Civil Aviation Authority of the Czech Republic (CAA), follow the [installation and configuration guide](https://github.com/kristianbc/vUCL/wiki/Installation-Guide).
+To get started with vUCL and enhance your virtual interactions with the Civil Aviation Authority of the Czech Republic (CAA), just follow this link (https://kristianbc.github.io/vUCL/).
 
 ## Contributing
 
