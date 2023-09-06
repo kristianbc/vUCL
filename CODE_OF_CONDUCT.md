@@ -26,7 +26,7 @@ Please keep discussions and interactions focused on the project's goals and obje
 
 ## Reporting Violations
 
-If you believe that someone has violated this Code of Conduct or if you experience or witness behavior that makes you uncomfortable or unsafe, please report it to the project maintainers by contacting [maintainer-email@example.com].
+If you believe that someone has violated this Code of Conduct or if you experience or witness behavior that makes you uncomfortable or unsafe, please report it to the project maintainers by contacting [kristian.pastucha123@gmail.com].
 
 ## Enforcement
 
