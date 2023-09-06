@@ -40,7 +40,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ## Contact
 
-If you have any questions or need to report a violation of this Code of Conduct, please contact the project maintainers at [maintainer-email@example.com].
+If you have any questions or need to report a violation of this Code of Conduct, please contact the project maintainers at [kristian.pastucha123@gmail.com].
 
 ## License
 
