@@ -32,11 +32,7 @@ vUCL is a specialized Discord Webhook Bot tailored for virtual interactions with
 
 - **Notification System:** Receive instant notification alerts for new requests and updates, ensuring timely responses and assistance.
 
-- **Customization:** The bot is highly customizable, allowing server administrators to adapt it to their specific requirements and branding.
-
 - **Error Handling:** Robust error-handling mechanisms are in place to provide prompt assistance in case of any issues or discrepancies.
-
-- **Comprehensive Documentation:** Detailed documentation is available to guide administrators through the setup and configuration of vUCL.
 
 ## Getting Started
 
