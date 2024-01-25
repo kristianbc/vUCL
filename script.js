@@ -94,3 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     return /^[A-Z][a-z]*\s[A-Z][a-z]*$/.test(name);
   }
 });
+
+//
+//
+//
