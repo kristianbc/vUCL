@@ -29,8 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
                  `Details: ${details}\n` +
                  '```'
       };
-  
+      
       const webhookURL = 'https://discord.com/api/webhooks/1144622253942775909/bmocpC9Gw_aah0uCMikGzmLyGkZrrSaQg0B5UoYXUpRB9Cpa7wFDkkbkjREut0FePifk';
+      //const webhookURL = 'https://discord.com/api/webhooks/1144594322453450862/CjOz5t0pdRHkMwCEGD0NGiZy3ZPao8tNRf1Z501n8CIkH7CCrtWikdYfgMDHEOoCfXxY';
   
       fetch(webhookURL, {
         method: 'POST',
@@ -60,4 +61,36 @@ document.addEventListener('DOMContentLoaded', function() {
   function generateUniqueId() {
     return Math.random().toString(36).substr(2, 9);
   }
-  
+
+//new code
+
+document.addEventListener('DOMContentLoaded', function() {
+  const nameInput = document.getElementById('name');
+  const form = document.getElementById('details-form');
+  const submitButton = document.querySelector('button[type="submit"]');
+
+  nameInput.addEventListener('input', function() {
+    const nameValue = this.value;
+    if (!isValidNameFormat(nameValue)) {
+      this.classList.add('error');
+      submitButton.style.display = 'none'; // Hide the submit button
+    } else {
+      this.classList.remove('error');
+      submitButton.style.display = ''; // Show the submit button
+    }
+  });
+
+  form.addEventListener('submit', function(event) {
+    const nameValue = nameInput.value;
+    if (!isValidNameFormat(nameValue)) {
+      event.preventDefault(); // Prevent form submission
+      nameInput.classList.add('error');
+      alert('Please enter name in the correct format (e.g., John Example).');
+    }
+  });
+
+  function isValidNameFormat(name) {
+    // Check if the name starts with an uppercase letter followed by a space and then another word
+    return /^[A-Z][a-z]*\s[A-Z][a-z]*$/.test(name);
+  }
+});
