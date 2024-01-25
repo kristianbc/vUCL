@@ -83,4 +83,14 @@ body {
   .error {
     color: red;
   }
-  
+
+  .small-text {
+    font-size: 0.8em; /* Set the font size smaller */
+    color: green; /* Set the color to green */
+    font-weight: bold; /* Optionally, make it bold for emphasis */
+}
+
+.small {
+  font-size: 0.8em; /* Set the font size smaller */
+}
+
